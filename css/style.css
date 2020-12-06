@@ -1,0 +1,122 @@
+.navigation{
+    height: 50px;
+    background: #4e74a6;
+    mix-blend-mode: normal;
+    display: flex;
+    margin-left: 995px;
+}
+.navtext{
+    width: 100%;
+    display: inline;
+    color: white;
+    background-color: #4e74a6;
+    flex-direction: row;
+    margin: 32px;
+    list-style-type: none;
+}
+body{
+    overflow:auto;
+}
+.ul{
+    width:50%;
+    margin-left: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    text-align: center;
+
+}
+li{
+    padding: center;
+    text-align: center;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap-reverse;
+    justify-content:flex-end;
+}
+.heroImage{
+    position:absolute;
+    top: 140px;
+    right: 30px;
+}
+.btn .btn-primary .btn-lg{
+  border: 1px solid transparent;
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;  
+
+}
+.btn-primary{
+    color: #ffffff;
+    background-color: #4e74a6;
+    border-color:#4e74a6;
+}
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    transition: color .15s
+            
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-family: "ubuntu",serif;
+    color:black;
+    position:auto;
+    top:175px;
+    left:10px;
+    font-size: 36px;
+}
+p{
+    font-family: "ubuntu",serif;
+    color:black;
+    position:auto;
+    top:300px;
+    left:10px;
+}
+
+.h2{
+    display:block;
+    text-shadow: 2px 2px 8px #91B0D9;
+    color: black;
+    position: absolute;
+    height:340px;
+    left:612px;
+    width:686px;
+    top:780px;
+    font-family: serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    }
+
+.footer{
+    position: absolute;
+    width:215px;
+    height:78px;
+    left: 142px;
+    top:3892px;
+    font-family: "Ubuntu" , serif;
+    font-style: normal;
+    align-items: center;
+}
+@media only screen and (max-width:600px){
+    body {
+        display:none;
+    }
+}
+@media only screen and (max-width:600px){
+    .navigation{
+        float:none;
+        width:100%;
+    }
+}
