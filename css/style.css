@@ -89,6 +89,11 @@ a{
     margin-right: 150px;
     margin-left: 300px;
 }
+.card-img-bottom{
+    display:block;
+    margin-left: -90px;
+    margin-right: auto;
+}
 h1{
     font-family: "ubuntu",serif;
     color:black;
